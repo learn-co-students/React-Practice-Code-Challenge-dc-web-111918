@@ -14,6 +14,7 @@ body {
       ". . . . ."
       ". bt bt bt ."
       ". . rm . ."
+      ". . tt . ."
       ". tb tb tb .";
 }
 
@@ -76,4 +77,11 @@ body {
   height: 428px;
   width: 700px;
   margin: auto;
+}
+
+.walletForm {
+  grid-area: tt;
+  display: flex;
+  justify-content: space-evenly;
+
 }
